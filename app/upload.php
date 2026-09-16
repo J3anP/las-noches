@@ -19,14 +19,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['file'])) {
 <meta charset="UTF-8">
 <title>LAS NOCHES · Subir archivo</title>
 <style>
-body{font-family:monospace;background:#0d0d0d;color:#eee;margin:0;padding:30px;}
-.container{max-width:600px;margin:0 auto;}
-h1{color:#e63946;}
-.card{background:#1a1a1a;border:1px solid #333;padding:20px;border-radius:6px;}
-button{padding:8px 16px;background:#c61b28;color:#fff;border:none;border-radius:4px;cursor:pointer;font-family:monospace;margin-top:10px;}
-a{color:#4dd9ff;}
+body{font-family:'Courier New',monospace;background-color:#07070a;background-image:radial-gradient(ellipse 60% 42% at 50% 0%, rgba(232,234,240,0.13), rgba(232,234,240,0) 65%),url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='4'><rect width='4' height='4' fill='%230a0a0d'/><rect x='0' y='0' width='1' height='1' fill='%23151518'/><rect x='2' y='1' width='1' height='1' fill='%230d0d10'/><rect x='1' y='3' width='1' height='1' fill='%23181820'/><rect x='3' y='2' width='1' height='1' fill='%230c0c0f'/></svg>");background-size:cover,4px 4px;image-rendering:pixelated;color:#cfcfd6;margin:0;padding:30px;min-height:100vh;position:relative;}
+.container{position:relative;z-index:1;max-width:600px;margin:0 auto;}
+h1{color:#eceef2;letter-spacing:1px;text-shadow:0 0 10px rgba(236,238,242,0.3);}
+.card{background:rgba(17,17,20,0.92);border:1px solid #3a3a42;border-top:2px solid #8f8f98;padding:20px;border-radius:2px;}
+button{padding:8px 16px;background:#26262b;color:#eceef2;border:1px solid #55555d;border-radius:2px;cursor:pointer;font-family:inherit;margin-top:10px;}
+button:hover{background:#38383f;border-color:#8f8f98;}
+a{color:#b9c7d6;}
 .msg{margin-top:12px;font-size:13px;}
-nav a{color:#e63946;}
+nav a{color:#c9c9d0;text-decoration:none;border-bottom:1px solid transparent;}
+nav a:hover{border-bottom:1px solid #8f8f98;}
 </style>
 </head>
 <body>
