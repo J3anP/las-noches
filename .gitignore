@@ -1,0 +1,4 @@
+app/database.sqlite
+app/uploads/*
+!app/uploads/.gitkeep
+ANSWER_KEY.md

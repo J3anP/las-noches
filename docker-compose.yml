@@ -1,0 +1,7 @@
+services:
+  las-noches:
+    build: .
+    container_name: las-noches
+    ports:
+      - "8090:80"
+    restart: unless-stopped
