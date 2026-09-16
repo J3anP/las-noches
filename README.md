@@ -1,8 +1,7 @@
-# 🌙 LAS NOCHES — CTF de cierre (Sesión 6)
+# 🌙 LAS NOCHES - CTF de cierre (Sesión 6)
 
 Servidor vulnerable para el CTF final del curso. Corre 100% local en la máquina de cada alumno vía Docker.
 
-> 🟢 Nivel: básico. Ningún paso requiere escribir código ni usar sintaxis compleja de shell.
 
 ## 🎯 Los 4 retos
 
